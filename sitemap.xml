@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Page d'accueil -->
+  <url>
+    <loc>https://graphykha.fr/</loc>
+    <lastmod>2025-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://graphykha.fr/image/logo a utiliser.png</image:loc>
+      <image:caption>Logo Graphykha - Graphiste freelance</image:caption>
+      <image:title>Logo GK Graphykha</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Section Services -->
+  <url>
+    <loc>https://graphykha.fr/#services</loc>
+    <lastmod>2025-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Section Portfolio -->
+  <url>
+    <loc>https://graphykha.fr/#portfolio</loc>
+    <lastmod>2025-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+
+    <image:image>
+      <image:loc>https://graphykha.fr/portfolio/CARTE VISTE R TOITURE AYMEN.jpg</image:loc>
+      <image:caption>Carte de visite professionnelle réalisée par Graphykha</image:caption>
+      <image:title>Carte de Visite - Graphykha</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://graphykha.fr/portfolio/IMG_9353.jpg</image:loc>
+      <image:caption>Projet de design créatif par Graphykha</image:caption>
+      <image:title>Design Créatif - Graphykha</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://graphykha.fr/portfolio/IMG_9762.jpg</image:loc>
+      <image:caption>Projet artistique réalisé par Graphykha</image:caption>
+      <image:title>Projet Artistique - Graphykha</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://graphykha.fr/portfolio/IMG_9989.jpg</image:loc>
+      <image:caption>Œuvre créative professionnelle par Graphykha</image:caption>
+      <image:title>Œuvre Créative - Graphykha</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Section À propos -->
+  <url>
+    <loc>https://graphykha.fr/#about</loc>
+    <lastmod>2025-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Section Contact -->
+  <url>
+    <loc>https://graphykha.fr/#contact</loc>
+    <lastmod>2025-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Mentions légales -->
+  <url>
+    <loc>https://graphykha.fr/mentions-legales.html</loc>
+    <lastmod>2025-01-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <!-- Politique de confidentialité -->
+  <url>
+    <loc>https://graphykha.fr/politique-confidentialite.html</loc>
+    <lastmod>2025-01-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+</urlset> 
