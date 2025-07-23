@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Fichiers à exclure de l'indexation
+Disallow: /admin/
+Disallow: /assets/temp/
+Disallow: /thank-you.html
+
+# Autoriser l'accès aux ressources importantes
+Allow: /style.css
+Allow: /script.js
+Allow: /*.jpg
+Allow: /*.png
+Allow: /*.svg
+Allow: /*.webp
+
+# Sitemap
+Sitemap: https://graphykha.fr/sitemap.xml
+
+# Délai entre les requêtes (optionnel)
+Crawl-delay: 1 

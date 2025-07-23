@@ -1,0 +1,22 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6B8E6B;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#8FA98F;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="400" height="300" fill="#F7F5F3"/>
+  
+  <!-- Forme de logo stylisé -->
+  <circle cx="200" cy="150" r="80" fill="url(#bg2)" stroke="#6B8E6B" stroke-width="3"/>
+  <text x="200" y="160" text-anchor="middle" font-family="serif" font-size="48" fill="#6B8E6B" font-weight="bold">S</text>
+  
+  <!-- Éléments décoratifs -->
+  <rect x="120" y="230" width="160" height="2" fill="#8FA98F"/>
+  <text x="200" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5A6B5A">START-UP TECH</text>
+  
+  <!-- Coins décoratifs -->
+  <path d="M 20 20 L 40 20 L 40 40" stroke="#C8C1BD" stroke-width="2" fill="none"/>
+  <path d="M 360 20 L 380 20 L 380 40" stroke="#C8C1BD" stroke-width="2" fill="none"/>
+</svg> 

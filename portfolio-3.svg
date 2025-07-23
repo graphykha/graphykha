@@ -1,0 +1,27 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#F0EBE8"/>
+  
+  <!-- Écran d'ordinateur -->
+  <rect x="50" y="50" width="300" height="180" fill="#FFFFFF" stroke="#6B8E6B" stroke-width="2" rx="10"/>
+  
+  <!-- Barre du navigateur -->
+  <rect x="50" y="50" width="300" height="30" fill="#6B8E6B" rx="10 10 0 0"/>
+  <circle cx="70" cy="65" r="5" fill="#E8D5D0"/>
+  <circle cx="85" cy="65" r="5" fill="#E8D5D0"/>
+  <circle cx="100" cy="65" r="5" fill="#E8D5D0"/>
+  
+  <!-- Contenu du site -->
+  <rect x="70" y="100" width="260" height="15" fill="#8FA98F" opacity="0.6"/>
+  <rect x="70" y="125" width="180" height="8" fill="#C8C1BD"/>
+  <rect x="70" y="140" width="200" height="8" fill="#C8C1BD"/>
+  <rect x="70" y="155" width="160" height="8" fill="#C8C1BD"/>
+  
+  <!-- Bouton -->
+  <rect x="70" y="180" width="80" height="25" fill="#6B8E6B" rx="5"/>
+  <text x="110" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">CTA</text>
+  
+  <!-- Image placeholder -->
+  <rect x="260" y="120" width="60" height="60" fill="#E8D5D0" rx="5"/>
+  
+  <text x="200" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#5A6B5A">Site Web Vitrine</text>
+</svg> 
