@@ -66,7 +66,7 @@ Basée sur l'identité visuelle GK :
 - Ajoutez les liens réseaux sociaux dans le footer
 
 **Images :**
-- `image/logo a utiliser.png` - Logo principal Graphykha (✅ intégré)
+- `image/logo-graphykha.png` - Logo principal Graphykha (✅ intégré)
 - `image/graphyka.png` - Nom vectorisé Graphykha (✅ intégré)
 - `portfolio/CARTE VISTE R TOITURE AYMEN.jpg` - Carte de visite (✅ intégré)
 - `portfolio/IMG_9353.jpg` - Design créatif (✅ intégré)
