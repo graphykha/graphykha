@@ -183,12 +183,12 @@ function initMouseFollowEffect() {
 // Formulaire de contact
 // ============================
 
-// Validation et envoi du formulaire
+// Validation et envoi du formulaire avec Resend
 function initFormValidation() {
     const form = document.querySelector('.contact-form');
     
     if (form) {
-        form.addEventListener('submit', function(e) {
+        form.addEventListener('submit', async function(e) {
             e.preventDefault();
             
             // Validation des champs
@@ -214,11 +214,7 @@ function initFormValidation() {
             });
             
             if (isValid) {
-                // Simuler l'envoi (remplacer par la vraie logique Formspree)
-                showFormSuccess();
-                
-                // Optionnel : envoyer réellement le formulaire
-                // this.submit();
+                await sendFormData();
             } else {
                 showFormError('Veuillez corriger les erreurs dans le formulaire.');
             }
@@ -231,6 +227,61 @@ function initFormValidation() {
                 field.classList.remove('error');
             });
         });
+    }
+}
+
+// Envoi des données du formulaire via Resend
+async function sendFormData() {
+    const form = document.querySelector('.contact-form');
+    const submitButton = form.querySelector('button[type="submit"]');
+    const buttonText = submitButton.querySelector('.button-text');
+    const buttonLoader = submitButton.querySelector('.button-loader');
+    
+    // Afficher le loader
+    buttonText.style.display = 'none';
+    buttonLoader.style.display = 'inline-block';
+    submitButton.disabled = true;
+    
+    try {
+        // Récupérer les données du formulaire
+        const formData = new FormData(form);
+        const data = {
+            name: formData.get('name'),
+            email: formData.get('email'),
+            phone: formData.get('phone'),
+            company: formData.get('company'),
+            project_type: formData.get('project_type'),
+            budget: formData.get('budget'),
+            timeline: formData.get('timeline'),
+            message: formData.get('message')
+        };
+        
+        // Envoyer à l'API Resend
+        const response = await fetch('/api/contact', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data)
+        });
+        
+        const result = await response.json();
+        
+        if (response.ok && result.success) {
+            showFormSuccess();
+            form.reset();
+        } else {
+            throw new Error(result.error || 'Erreur lors de l\'envoi');
+        }
+        
+    } catch (error) {
+        console.error('Erreur:', error);
+        showFormError('Erreur lors de l\'envoi du message. Veuillez réessayer ou nous contacter directement.');
+    } finally {
+        // Masquer le loader
+        buttonText.style.display = 'inline';
+        buttonLoader.style.display = 'none';
+        submitButton.disabled = false;
     }
 }
 

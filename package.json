@@ -1,0 +1,25 @@
+{
+  "name": "graphykha-website",
+  "version": "1.0.0",
+  "description": "Site web de Graphykha - Graphiste freelance",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Build completed'",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "resend": "^3.1.0"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.0"
+  },
+  "keywords": [
+    "graphiste",
+    "freelance",
+    "design",
+    "portfolio"
+  ],
+  "author": "Graphykha",
+  "license": "MIT"
+} 
