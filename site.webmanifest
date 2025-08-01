@@ -1,0 +1,27 @@
+{
+    "name": "Graphykha - Graphiste Freelance",
+    "short_name": "Graphykha",
+    "description": "Graphiste freelance spécialisée dans la création de logos, identités visuelles et sites web",
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "16x16 32x32",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "image/logo-graphykha.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "logo-gk.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        }
+    ],
+    "theme_color": "#2c5530",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "start_url": "/",
+    "scope": "/"
+} 
